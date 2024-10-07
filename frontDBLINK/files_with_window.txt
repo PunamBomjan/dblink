@@ -1,0 +1,9 @@
+./web/components/ui/AppHero.tsx
+./web/components/ui/Background.tsx
+./web/components/ui/ExploreEvent.tsx
+./web/components/ui/Comparison.tsx
+./web/components/ui/ui-layout.tsx
+./web/components/ui/RegisterModal.tsx
+./web/components/cluster/cluster-ui.tsx
+./web/components/AboutUs.tsx
+./web/components/MerchandiseStore.tsx

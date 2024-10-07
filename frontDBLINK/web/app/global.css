@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(50, 50, 50, 1);
+  color: black !important;
+  scroll-behavior: smooth;
+}
+
+.wallet-adapter-button-trigger {
+  background: #f9c134!important;
+  border-radius: 8px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  color: black!important;
+}
+.wallet-adapter-button-trigger:hover{
+  background: #f3d280!important;
+}
+.wallet-adapter-dropdown-list,
+.wallet-adapter-button {
+  font-family: inherit !important;
+}
+ .dropdown{
+  color: black !important;
+  
+}
+
+.max-w-2xl h1{
+  color:#f9c134;
+}
+.max-w-2xl p{
+  color:#f9c134;
+}
+th{
+  color: #f9c134;
+}
+.dropdown .btn.btn-primary {
+  background-color: rgb(150, 26, 211);
+  color: white; /* Change text color */
+  border-color: rgb(150, 26, 211);
+}
+
+/* Optional: Hover effect */
+.dropdown .btn.btn-primary:hover {
+  background-color: rgb(182, 78, 235);
+}
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+@keyframes scrollX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollXReverse {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scrollX {
+  animation: scrollX 30s linear infinite;
+}
+
+.animate-scrollXReverse {
+  animation: scrollXReverse 30s linear infinite;
+}
